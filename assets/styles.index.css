@@ -29,6 +29,31 @@ header {
     align-items: center;
 }
 
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    /*background-color: hsl(214, 79%, 37%);*/
+    background: linear-gradient(25deg, rgb(0, 0, 0), hsl(214, 100%, 20%));
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside{
+    /*background-color: hsl(214, 76%, 60%);*/
+    background: linear-gradient(25deg, rgb(0, 0, 0), hsl(214, 52%, 39%));
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
+}
+
 p{
     border-radius: 4px;
     padding: 10px;
